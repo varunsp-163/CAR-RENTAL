@@ -1,0 +1,443 @@
+[
+    {
+      "id": 1,
+      "name": "Toyota Camry",
+      "description": "A reliable midsize sedan with good fuel efficiency.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 1,
+          "startTime": "08:00 AM",
+          "endTime": "10:00 AM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 2,
+          "startTime": "11:00 AM",
+          "endTime": "01:00 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Honda Civic",
+      "description": "Compact car known for its fuel efficiency and reliability.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 3,
+          "startTime": "09:30 AM",
+          "endTime": "11:30 AM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 4,
+          "startTime": "02:00 PM",
+          "endTime": "04:00 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ford Explorer",
+      "description": "A spacious SUV with room for the whole family.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 5,
+          "startTime": "10:00 AM",
+          "endTime": "12:00 PM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 6,
+          "startTime": "03:30 PM",
+          "endTime": "05:30 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Chevrolet Malibu",
+      "description": "A comfortable sedan with modern features.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 7,
+          "startTime": "08:30 AM",
+          "endTime": "10:30 AM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 8,
+          "startTime": "01:30 PM",
+          "endTime": "03:30 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Nissan Rogue",
+      "description": "A compact SUV perfect for city driving.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 9,
+          "startTime": "11:30 AM",
+          "endTime": "01:30 PM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 10,
+          "startTime": "04:00 PM",
+          "endTime": "06:00 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Hyundai Sonata",
+      "description": "A stylish midsize sedan with advanced safety features.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 11,
+          "startTime": "09:00 AM",
+          "endTime": "11:00 AM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 12,
+          "startTime": "02:30 PM",
+          "endTime": "04:30 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Kia Sportage",
+      "description": "A versatile SUV with ample cargo space.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 13,
+          "startTime": "10:30 AM",
+          "endTime": "12:30 PM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 14,
+          "startTime": "03:00 PM",
+          "endTime": "05:00 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Volkswagen Jetta",
+      "description": "A compact sedan known for its handling and comfort.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 15,
+          "startTime": "08:45 AM",
+          "endTime": "10:45 AM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 16,
+          "startTime": "01:45 PM",
+          "endTime": "03:45 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Toyota RAV4",
+      "description": "A popular crossover SUV with great reliability.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 17,
+          "startTime": "11:15 AM",
+          "endTime": "01:15 PM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 18,
+          "startTime": "04:30 PM",
+          "endTime": "06:30 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Honda Accord",
+      "description": "A comfortable and spacious midsize sedan.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 19,
+          "startTime": "09:15 AM",
+          "endTime": "11:15 AM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 20,
+          "startTime": "02:15 PM",
+          "endTime": "04:15 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Ford Fusion",
+      "description": "A hybrid sedan with excellent fuel economy.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 21,
+          "startTime": "10:15 AM",
+          "endTime": "12:15 PM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 22,
+          "startTime": "03:15 PM",
+          "endTime": "05:15 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Chevrolet Equinox",
+      "description": "A comfortable and spacious crossover SUV.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 23,
+          "startTime": "08:15 AM",
+          "endTime": "10:15 AM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 24,
+          "startTime": "01:15 PM",
+          "endTime": "03:15 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Nissan Altima",
+      "description": "A comfortable and practical midsize sedan.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 25,
+          "startTime": "09:45 AM",
+          "endTime": "11:45 AM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 26,
+          "startTime": "02:45 PM",
+          "endTime": "04:45 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Hyundai Tucson",
+      "description": "A compact SUV with modern features.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 27,
+          "startTime": "11:00 AM",
+          "endTime": "01:00 PM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 28,
+          "startTime": "04:15 PM",
+          "endTime": "06:15 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Kia Optima",
+      "description": "A midsize sedan with a comfortable interior.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 29,
+          "startTime": "08:30 AM",
+          "endTime": "10:30 AM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 30,
+          "startTime": "01:00 PM",
+          "endTime": "03:00 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Volkswagen Golf",
+      "description": "A compact car known for its sporty handling.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 31,
+          "startTime": "09:00 AM",
+          "endTime": "11:00 AM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 32,
+          "startTime": "02:30 PM",
+          "endTime": "04:30 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Toyota Corolla",
+      "description": "A popular compact sedan known for its reliability.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 33,
+          "startTime": "10:45 AM",
+          "endTime": "12:45 PM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 34,
+          "startTime": "03:45 PM",
+          "endTime": "05:45 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Honda CR-V",
+      "description": "A comfortable and spacious compact SUV.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 35,
+          "startTime": "08:45 AM",
+          "endTime": "10:45 AM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 36,
+          "startTime": "01:45 PM",
+          "endTime": "03:45 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Ford Escape",
+      "description": "A compact SUV with great cargo space.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 37,
+          "startTime": "09:15 AM",
+          "endTime": "11:15 AM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 38,
+          "startTime": "02:15 PM",
+          "endTime": "04:15 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Subaru Outback",
+      "description": "A versatile crossover SUV with all-wheel drive.",
+      "available": true,
+      "timeSlots": [
+        {
+          "id": 39,
+          "startTime": "10:15 AM",
+          "endTime": "12:15 PM",
+          "isBooked": false,
+          "bookingID": 0
+        },
+        {
+          "id": 40,
+          "startTime": "03:15 PM",
+          "endTime": "05:15 PM",
+          "isBooked": false,
+          "bookingID": 0
+        }
+      ]
+    }
+  ]
+  
