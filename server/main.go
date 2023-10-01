@@ -35,7 +35,6 @@ type Car struct {
 var cars []Car
 
 func main() {
-
 	godotenv.Load(".env")
 	// Connect to MongoDB
 	value := os.Getenv("MONGODB_CONNECTION")
