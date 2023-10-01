@@ -69,7 +69,7 @@ func main() {
 	}
 
 	c := cors.New(cors.Options{
-		AllowedOrigins: []string{"https://car-rental-git-main-varunsp-163.vercel.app/"},
+		AllowedOrigins: []string{"https://car-rental-git-main-varunsp-163.vercel.app"},
 		AllowedMethods: []string{"GET", "OPTIONS", "POST", "PATCH"},
 	})
 
