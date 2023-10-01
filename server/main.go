@@ -69,7 +69,7 @@ func main() {
 	}
 
 	c := cors.New(cors.Options{
-		AllowedOrigins: []string{"http://localhost:3000"},
+		AllowedOrigins: []string{"https://car-rental-theta-peach.vercel.app/"},
 		AllowedMethods: []string{"GET", "OPTIONS", "POST", "PATCH"},
 	})
 
@@ -79,7 +79,8 @@ func main() {
 
 	handler := c.Handler(http.DefaultServeMux)
 
-	http.ListenAndServe(":5000", handler)
+	http.ListenAndServe(":"+os.Getenv("PORT"), handler)
+
 
 }
 

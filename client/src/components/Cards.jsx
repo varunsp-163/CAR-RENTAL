@@ -8,7 +8,7 @@ const Cards = () => {
 
   async function fetchData() {
     try {
-      const response = await fetch("http://localhost:5000/api/cars");
+      const response = await fetch("https://car-rental-api-git-main-varunsp-163.vercel.app/api/cars");
       if (!response.ok) {
         throw new Error(`Network response was not ok: ${response.status}`);
       }

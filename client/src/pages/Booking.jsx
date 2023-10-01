@@ -27,7 +27,7 @@ const Booking = () => {
     try {
       setIsBooking(true);
       await axios.post(
-        "http://localhost:5000/api/cars/booknow",
+        "https://car-rental-api-git-main-varunsp-163.vercel.app/api/cars/booknow",
         selectedTimeSlot
       );
       setIsBooking(false);
@@ -51,7 +51,7 @@ const Booking = () => {
     }
     try {
       await axios.post(
-        "http://localhost:5000/api/cars/cancelCar",
+        "https://car-rental-api-git-main-varunsp-163.vercel.app/api/cars/cancelCar",
         selectedTimeSlot
       );
       setErrorMessage(""); 
